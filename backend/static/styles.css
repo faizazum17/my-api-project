@@ -1,0 +1,385 @@
+/* Style Universal */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@200;400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: Quicksand;
+  	margin: 0;
+   	padding: 0;
+}
+ 
+h2, h3 {
+   	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	font-size: .9rem;
+  	font-weight: bold;
+}
+
+li {
+	list-style: none;
+}
+
+/*  Jumbotron */
+.jumbotron {
+  display: flex;
+  flex-direction: row;
+  padding: 150px 0 150px 0;
+  background-color: #a1a7b3;
+  height: 90vh;
+  color: #ffffff;
+  text-align: left;
+}
+
+.jumbotron-left {
+	flex: 1;
+	order: 1;
+	margin: 0 auto;
+	padding: 1.2em;
+	font-size: 1.5rem;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+}
+
+.jumbotron-right {
+	flex: 1;
+	order: 2;
+	margin: 0 auto;
+}
+
+.jumbotron-right img {
+	width: 75%;
+}
+
+.blog {
+	font-family: 'Quicksand', sans-serif;
+	width: auto;
+	height: 2.5rem;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 2px solid #ddd;
+}
+
+.blog a {
+	font-size: 1.5rem;
+	padding: 1rem;
+	color: #ddd;
+}
+
+/* Top Menu */
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  background-color: #a1a7b3; 
+  padding: .5rem 0;
+  top: 0;
+}
+
+.btn {
+	width: auto;
+	flex: 1;
+	order: 2;
+}
+
+.top-nav p {
+	flex: 5;
+	order: 1;
+	display: inline-block;
+	margin-left: 1.2rem;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.btn-1 {
+	font-family: 'Quicksand', sans-serif;
+	margin-right: 1rem;
+}
+
+.btn-1 a {
+	color: #ddd;
+}
+
+.btn-2 {
+	font-family: 'Quicksand', sans-serif;
+	border: 0;
+	margin-right: .5rem;
+}
+
+.btn-2 a {
+	color: #ddd;
+}
+
+/* Main Style */
+.main h2 {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.tentang-saya {
+	display: flex;
+	flex-direction: row;
+	/* height: 50vh; */
+	padding: 75px;
+	padding-bottom: 10px !important;
+	/* background-color: #548CA8; */
+}
+
+.saya {
+	flex: 1;
+	order: 1;
+	margin: 0 auto;
+	text-align: justify;
+	margin-right: 3em;
+}
+
+.saya img {
+	border-radius: 50%;
+}
+
+.contact {
+	flex: 1;
+	order: 2;
+	margin: 0 auto;
+	text-decoration:none
+}
+
+.contact a {
+	color: #ddd;
+	border-bottom: 1.5px solid #ddd;
+	text-decoration: none;
+}
+
+/* Skill style */
+.skill {
+	background-image: url(img/email-pattern.png);
+	padding: 75px;
+	padding-top:10px !important;
+}
+
+.skill-items {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.frontend, .backend, .ui {
+	background-color: #f7971c;
+}
+
+.frontend {
+	border-radius: 15px;
+	border: 3px solid #191919;
+	padding: 10px;
+	margin-right: 10px;
+	flex: 1;
+	order: 1;
+	font-weight: bold;
+}
+
+.backend {
+	border-radius: 15px;
+	border: 3px solid #191919;
+	padding: 10px;
+	margin-right: 10px;
+	flex: 1;
+	order: 2;
+	font-weight: bold;
+}
+
+.ui {
+	border-radius: 15px;
+	border: 3px solid #191919;
+	padding: 10px;
+	flex: 1;
+	order: 3;
+	font-weight:bold; 
+}
+
+/* Portofolio style */
+.portofolio {
+	display: flex;
+	flex-direction: row;
+	padding: 75px;
+	padding-top: 40px !important;
+	margin-bottom: 20px;
+}
+
+.card-1 {
+	border-radius: 15px;
+	border: 3px solid #191919;
+	padding: 10px;
+	margin-right: 10px;
+	flex: 1;
+	order: 1;
+}
+
+.card-2 {
+	border-radius: 15px;
+	border: 3px solid #191919;
+	padding: 10px;
+	margin-right: 10px;
+	flex: 1;
+	order: 2;
+}
+
+.card-3 {
+	border-radius: 15px;
+	border: 3px solid #191919;
+	padding: 10px;
+	flex: 1;
+	order: 3;
+}
+
+.card-1, .card-2, .card-3 {
+	background-color: #f7971c;
+}
+
+.demo {
+	color: #ddd;
+	border-bottom: 2px solid #ddd;
+}
+
+/* All Hover Effects */
+.contact a:hover, .contact a:active {
+	border-bottom: 2px solid #ddd;
+  	transition: all .3s ease;
+}
+
+.btn-1:hover, .btn-2:hover {
+  border-bottom: 2px solid #ddd;
+  transition: all .3s ease;
+}
+
+/*jumbotron btn*/
+.blog:hover, .blog:active {
+	background-color: #f7971c;
+	transition: all .4s ease;
+}
+
+.blog a:hover, .bloag a:active {
+	color: #ddd;
+}
+
+.contact a:hover {
+	border-bottom: 1.5px dashed #fff;
+}
+
+.frontend:hover, .backend:hover, .ui:hover, .card-1:hover, .card-2:hover, .card-3:hover {
+	transform: translateY(-10px);
+	transition: all .7s ease;
+}
+
+.demo:hover, .demo:active {
+	border-bottom: 2px dashed black;
+}
+
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: auto;
+  background-color: #ddd;
+  font-size: .8rem;
+  text-align: center;
+  color: #ddd;
+  font-weight: bold;
+  border-bottom: .5rem solid #a1a7b3;
+}
+
+.footer a {
+	color: #333;
+}
+
+.footer a:hover {
+	transition: all .7s ease;
+	border-bottom: 3px solid #333;
+}
+
+.copy {
+	flex: 1;
+	order: 1;
+}
+
+.github {
+	flex: 1;
+	order: 3;
+}
+
+.top {
+	flex: 1;
+	order: 2;
+}
+
+.nodecor a{
+	text-decoration: none;
+}
+
+/* Responsive Breakpoint */
+@media screen and (max-width: 960px) {
+	.jumbotron {
+		display: flex;
+		flex-direction: column;
+		padding: 1em;
+	}
+
+	.jumbotron-left {
+		flex: 1;
+		order: 2;
+	}
+
+	.jumbotron-right {
+		flex: 1;
+		order: 1;
+	}
+
+	.btn {
+		display: inline-flex;
+	}
+
+	.tentang-saya, .skill-items, .portofolio {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.skill-items, .portofolio {
+		margin-left: 1rem;
+	}
+
+	.saya {
+		margin-left: 2.2rem;
+	}
+
+	.frontend, .backend, .card-1, .card-2 {
+		margin-bottom: 20px;
+	}
+
+	.contact {
+		text-align: center;
+		text-decoration:none;
+	}
+
+	.ui, .card-3 {
+		width: 98.35%;
+	}
+
+	.footer {
+		font-size: .74rem;
+	}
+
+	.github, .top {
+		display: none;
+	}
+
+}
